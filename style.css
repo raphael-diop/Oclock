@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Libre+Baskerville&family=Newsreader:ital,opsz,wght@1,6..72,200&family=Open+Sans:wght@300&family=Space+Mono:ital,wght@1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+h1, h5, h3{
+    color: white;
+    font-family: 'Space Mono', monospace;
+}
+
+body{
+    background-image: url('https://a-static.besthdwallpaper.com/galaxie-de-la-voie-lactee-fond-d-ecran-3200x1200-55223_90.jpg');
+    background-image: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#clock{
+    color: white;
+    font-size: 15vh;
+    background-image: linear-gradient(180deg,
+    rgb(155, 245, 149) 0%,
+    rgb(43, 255, 0) 50%,
+    rgb(23, 237, 216) 100%,
+    );
+    font-family: 'Space Mono', monospace;
+}
+
+.controls{
+    margin-top: 2%;
+}
+
+button{
+    font-weight: bold;
+    border-radius:5px;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.set-alarm{
+    background-color: blue;
+}
+
+.clear-alarm{
+    background-color: red;
+}
+
+/*//////////CHRONO//////////*/
+
+.chrono{
+    min-width: 300px;
+    margin-right: 15%;
+}
+
+.btnChrono{
+    background-color:purple;
+}
+
+.timeChrono{
+    color: white;
+}
+
+/*///////TIMER////////*/
+
+.timeChrono span{
+    font-size:15px;
+    font-family: 'Space Mono', monospace;
+}
+
+.containerTimer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.timerLabel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.timerInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.timerButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.timerButton button{
+    background-color:purple;
+}
+
+
+.containerChronoTimer{
+    display: flex;
+    flex-direction: row;
+}
+
+#myTimes{
+    color : white;
+    font-family: 'Space Mono', monospace;
+}
+
+#myAlarms{
+    color : white;
+    font-family: 'Space Mono', monospace;
+}
+
+#hour-label {
+    color : white;
+    font-family: 'Space Mono', monospace;
+}
+
+#min-label{
+    color : white;
+    font-family: 'Space Mono', monospace;
+}
+
+#sec-label{
+    color : white;
+    font-family: 'Space Mono', monospace;
+}
